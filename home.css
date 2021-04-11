@@ -1,0 +1,234 @@
+body {
+    background-color: wheat;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before {
+    content: "";
+    background-color: rgba(179, 7, 7, 0.973);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+
+/* Navigation Bar: Logo and Image */
+
+#logo {
+    margin: 5px 25px;
+}
+
+#logo img {
+    height: 70px;
+    margin: 3px 6px;
+}
+
+
+/* Navigation Bar: List Styling */
+
+#navbar ul {
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+a:hover {
+    background-color: rgba(5, 161, 161, 0.966);
+}
+
+
+/* Home Section */
+
+#home::before {
+    content: "";
+    position: absolute;
+    background: url(mitsgwalior.jpg) no-repeat center center/ cover;
+    height: 660px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.35;
+}
+
+
+/* about covid section  */
+
+#aboutcovid::before {
+    content: "";
+    position: absolute;
+    background: url(mitsgwalior.jpg) no-repeat center center/ cover;
+    height: 740px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.35;
+}
+
+
+/* today's data section  */
+
+#todaysdata::before {
+    content: "";
+    position: absolute;
+    background: url(mitsgwalior.jpg) no-repeat center center/ cover;
+    height: 655px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.35;
+}
+
+#service {
+    display: flex;
+}
+
+#service .box {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 40px 8px;
+    margin: 1px 30px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+
+/* contact section  */
+
+#contact::before {
+    content: "";
+    position: absolute;
+    background: url(mitsgwalior.jpg) no-repeat center center/ cover;
+    height: 690px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.35;
+}
+
+#contactbox {
+    height: 200px;
+    width: 600px;
+    margin: auto;
+    border: 3px solid black;
+    text-align: center;
+}
+
+#contactbox ul li {
+    font-size: 1.4rem;
+    margin: 20px;
+}
+
+
+/* utility section  */
+
+.h-primary {
+    text-decoration-line: underline;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 2.8rem;
+    padding: 12px;
+    margin: 7px 7px;
+}
+
+.home-secondary {
+    /* text-decoration-line: underline; */
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 10px;
+    margin: 7px 7px;
+}
+
+.home-para {
+    text-align: center;
+}
+
+#copyright {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.ac-primary {
+    text-decoration-line: underline;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 2rem;
+    padding: 12px;
+    margin: 7px 7px;
+}
+
+.ac-secondary {
+    text-decoration-line: underline;
+    font-family: 'Bree Serif', serif;
+    /* text-align: center; */
+    font-size: 1.3rem;
+    padding: 12px;
+    margin: 7px 7px;
+}
+
+.ac-ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.boxheading {
+    text-align: center;
+}
+
+.todaysdataheading {
+    margin: 0px 25px;
+}
+
+#copyrighttd {
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-top: 90px;
+}
+
+.box a {
+    text-align: center;
+    margin-left: 7px;
+}
+
+.contact-h-primary {
+    text-decoration-line: underline;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 12px;
+    margin: 7px 7px;
+}
